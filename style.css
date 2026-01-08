@@ -11,7 +11,6 @@
 
   nav {
       width: 85%;
-      /* border: 1px solid red; */
       max-width: 1360px;
       margin: 0 auto;
       display: flex;
@@ -41,7 +40,6 @@
       font-size: 16px;
       font-weight: 600px;
       color: #FFFFFF;
-      /* margin: 0 30px 0 0; */
       cursor: pointer;
   }
 
@@ -51,7 +49,6 @@
       align-items: center;
       background-image: url("./assets/hero-bg.png");
       background-repeat: no-repeat;
-      /* background-position: 23px 0px, bottom right; */
       background-size: contain, cover;
   }
 
@@ -72,7 +69,6 @@
       gap: 8px;
       font-size: 16px;
       font-weight: 500;
-      /* margin: 0 auto; */
       margin-bottom: 16px;
   }
 
@@ -98,12 +94,12 @@
 
   .banner-container p {
       font-size: 18px;
-      line-height: 2px;
+      font-weight: 400;
+      line-height: 0px;
       color: #FFFFFF;
       margin: 32px;
       text-align: center;
       margin: bottom 32px;
-      ;
   }
 
   .btn-grp {
@@ -126,4 +122,62 @@
       cursor: pointer;
       border: 1.5px solid rgba(255, 255, 255, 0.6);
       background: transparent;
+  }
+
+  #note {
+      padding-top: 1px;
+  }
+
+  .note-container {
+      text-align: center;
+  }
+
+  .note-container .note-heading h2 {
+      text-align: center;
+      margin-bottom: 16px;
+      font-size: 48px;
+      color: #001931;
+      font-weight: bold;
+  }
+
+  .note-container .note-heading p {
+      font-size: 16px;
+      line-height: 20px;
+      color: #627382;
+  }
+
+  #note-box {
+      padding-top: 130px;
+  }
+
+  .note-box {
+      display: flex;
+      gap: 24px;
+      padding: 0 120px;
+  }
+
+  .note-card {
+      padding: 44px;
+  }
+
+  .note-card img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 16px;
+      background-color: #F95555;
+      border-radius: 50%;
+      padding: 16px;
+  }
+
+  .note-card h2 {
+      font-size: 24px;
+      font-weight: 500px;
+      color: #001931;
+      margin-bottom: 16px;
+  }
+
+  .note-card p {
+      font-size: 16px;
+      line-height: 20px;
+      color: #627382;
   }
